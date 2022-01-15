@@ -1,0 +1,36 @@
+:root{
+    --greed-john: #377c2b;
+    --yeyow-john: #ebd406;
+    --black: rgb(2, 1, 1);
+    --white:white;
+    --Fs-small: small;
+    --Fs-large: large;
+    --Fs-Xlarge: x-large;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: var(--greed-john);
+    font-family: serif;
+    margin-bottom: 10px;
+}
+#page-title{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    font-size: var(--Fs-large);
+    font-family: monospace;
+}
+#main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+#main-nav li{
+    display: inline-block;
+}
